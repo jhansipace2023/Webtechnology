@@ -1,0 +1,20 @@
+h1{
+    color: palevioletred;
+}
+
+#hardcode{
+    color: blueviolet;
+    background-color: bisque;
+}
+
+.hexa{
+    color: #0012ef;
+}
+
+#decimal{
+    color: rgb(255, 0, 119);
+}
+
+*{
+    text-align: center;
+}

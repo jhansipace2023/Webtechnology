@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+h1{
+    display:inline;
+    background: yellow;
+    text-align: center;
+}
+
+b{
+    display:block;
+    background: lightblue;
+    text-align: center;
+}
+
+i{
+    background: pink;
+}
+
+button{
+    width:30%;
+    padding: 2vh 0;
+    display: block;
+    margin: 2vh auto;
+}
+
+.textbox{
+    border: solid 1px black;
+    width:200px;
+    background: lightblue;
+    text-align: center;
+    margin:2vh auto;
+    height: 100px;
+    place-content: center;
+}
+
+.Container{
+    border:solid 1px black;
+    height: 300px;
+    width: 400px;
+    background: brown;
+    margin: 20vh auto;
+    display: flex;
+
+    /* justify-content: space-around; */
+    /* start(default)/center/end/space-between/space-evenly/space-around */
+    /* align-items: end; */
+    /* start/center/end */
+
+    justify-content: end;
+    align-items: end;
+}
+
+.box{
+    border: solid 1px black;
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    text-align: center;
+    place-content: center;
+}
+.colorbox{
+    background:black;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.circle{
+    border: solid 1px white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background:white;
+    margin: 3vh 2vw;
+}
+.clr1{
+    background: red;
+}
+.clr2{
+    background: yellow;
+}
+.clr3{
+    background: green;
+}
+
+.text{
+    border: solid 1px black;
+    height: 300px;
+    width: 200px;
+    background: lightcoral;
+    margin: 5vh auto;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxes{
+    border: solid 1px black;
+    width: 50%;
+    margin: 10vh auto;
+    background: darkblue;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-evenly;
+    row-gap: 5vh;
+    column-gap: 2vw;
+}
+
+.square{
+    border: solid 1px black;
+    height: 70px;
+    width: 70px;
+    background: lightgray;
+}

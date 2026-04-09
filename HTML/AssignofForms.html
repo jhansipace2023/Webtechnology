@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Table and Form</h1>
+    <table border="2" align="center" rules="all">
+        <Form>
+        <tr>
+            <th>Label</th>
+            <th>Input</th>
+        </tr>
+        <tr>
+            <td>
+                
+                <label>Username</label>
+                
+            </td>
+            <td>
+                
+                <input type="text" name="fname" placeholder="Enter first name">
+                <input type="text" name="lname" placeholder="Enter last name">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+                <label>Age</label>
+                
+            </td>
+            <td>
+                
+                <input type="number" naame="age" min="0" max="99" >
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+                <label>Email</label>
+                
+            </td>
+            <td>
+                
+                <input type="email" name="mail" placeholder="Enter Email Address">  
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Password</label>
+            </td>
+            <td>
+                <input type="password" name="pswd" placeholder="Enter Password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <labe>Date & Time</labe>
+            </td>
+            <td>
+                <input type="Date" name="date">
+                <input type="time" name="time">
+                <input type="datetime-local" name="datetime">
+                <input type="month" name="month">
+                <input type="week" name="week">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Contact:</lable>
+            </td>
+            <td>
+                <input type="tel" num="contact" placeholder="Enter contact number"
+                pattern="[6-9]{1}[0=9]{9}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Website:</label>
+            </td>
+            <td>
+                <input type="url" name="url" placeholder="Enter website Adress">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Search:</label>
+            </td>
+            <td>
+                <input type="search" name="search" placeholder="Search Anything...">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Price Range:</label>
+            </td>
+            <td>
+                <input type="range" name="count" min="100" max="10000">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Color:</label>
+            </td>
+            <td>
+                <input type="color" name="colorValue">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>File:</label>
+            </td>
+            <td>
+                <input type="file" name="file">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender:</label>
+            </td>
+            <td>
+                <label for="m">Male</label>
+                <input type="radio" name="gender" value="Male" id="m">
+                <label for="f">Female:</label>
+                <input type="radio" name="gender" value="Female" id="f">
+                <label for="o">Others</label>
+                <input type="radio" name="gender" value="others" id="o">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Language:</label>
+            </td>
+            <td>
+                <label>English</label>
+                <input type="checkbox" name="lang" value="Eng">
+                <label>Kannada</label>
+                <input type="checkbox" name="lang" value="Kan">
+                <label>Telugu</label>
+                <input type="checkbox" name="lang" value="Tel">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Places:</label>
+            </td>
+            <td>
+                <select name="place">
+                    <option value="man">Mangalore</option>
+                    <option value="goa">Goa</option>
+                    <option value="Ban">Bangalore</option>
+                    <option value="Rai">Raichur</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Comment Box:</label>
+            </td>
+            <td>
+                <textarea name="cmnt" rows="5" cols="50" placeholder="Comment Here"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="reset">
+                <input type="submit" value="Register">
+            </td>
+        </tr>
+        </Form>
+    </table>
+</body>
+</html>

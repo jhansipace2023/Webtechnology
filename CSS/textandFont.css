@@ -1,0 +1,27 @@
+h1{
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 10px 10px 5px gray;
+    font-family: sans-serif;
+}
+.para{
+    width:70%;
+    height: 200px;
+    margin:auto;
+    text-align: justify;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color:brown;
+    overflow: auto;
+    text-decoration-line:underline ;
+    text-decoration-color: aqua;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    border-radius: 50px;
+    border-top-width: 10px;
+}

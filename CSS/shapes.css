@@ -1,0 +1,88 @@
+.square{
+    border:solid 2px red;
+    height: 150px;
+    width:150px;
+    background:red;
+}
+.rect{
+    border:solid 2px red;
+    height: 150px;
+    width:250px;
+    background:red;
+}
+
+.circle{
+    border:solid 2px red;
+    height: 150px;
+    width:150px;
+    background:red;
+    border-radius: 50%;
+}
+.oval{
+    border:solid 2px red;
+    height: 150px;
+    width:400px;
+    background:red;
+    border-radius: 50%;
+}
+.leaf{
+    border:solid 2px green;
+    height: 300px;
+    width:300px;
+    background-color: green;
+    /* border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%; */
+    border-radius: 100% 0%;
+}
+
+.cube{
+    border:solid 1px green;
+    height: 100px;
+    width:100px;
+    border-top:solid 100px red;
+    border-right:solid 100px yellow;
+    border-left:solid 100px blue;
+    border-bottom:solid 100px green;
+}
+.chatbox{
+    border:solid 1px teal;
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    border-radius: 0% 100% 100% 100%;
+}
+.transform{
+    border:solid 1px teal;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+
+    /* transform: rotate(180deg); */
+    /* transform: rotateX(60deg); */
+    /* transform: rotateY(60deg); */
+    /* transform: skew(1.5); */
+    transform: scale(1.5) skew(30deg);
+}
+.emoji{
+    display: block;
+    margin: 10vh auto;
+    height: 150px;
+    /* box-shadow: 10px 10px 5px black;
+
+    filter: drop-shadow(10px 10px 5px black);
+    filter:brightness(120%);
+    filter:contrast(50%);
+    filter:saturate(100%); */
+    filter: opacity(.6);
+}
+.triangle{
+    border:solid 2px red;
+    height:0px;
+    width:0px;
+    margin: auto;
+    border-top:solid 100px white;
+    border-right:solid 100px white;
+    border-bottom: solid 100px red;
+    border-left:solid 100px white;
+}

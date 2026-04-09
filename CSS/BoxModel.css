@@ -1,0 +1,28 @@
+.box{
+    border:solid 2px black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.box2{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    background: blue;
+    margin: auto;
+}
+.textbox{
+    border:solid 1px black;
+    height: 150px;
+    width: 150px;
+    background: lightblue;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 50px;
+
+}

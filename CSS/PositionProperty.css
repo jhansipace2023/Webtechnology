@@ -1,0 +1,41 @@
+.box{
+    border:solid 1px black;
+    height: 100px;
+    width: 250px;
+    background: lightcoral;
+
+    position: fixed;
+    top: 0;
+    left: 500px;
+}
+
+.box2{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    background: lightblue;
+
+    position:sticky;
+    top: 0;
+    left: 200px;
+}
+
+.container{
+    border: solid 2px black;
+    height: 200px;
+    width: 300px;
+    background: rgb(171, 105, 233);
+    position: relative;
+    z-index: -1;
+}
+
+.circle{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    background: palevioletred;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
