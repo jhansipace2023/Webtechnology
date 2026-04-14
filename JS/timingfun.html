@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Timing Functions</h1>
+    <h3>setTimeOut and clearTimeout</h3>
+    <button onclick="x=setTimeout(fun,2000)">
+        Start
+    </button>
+    <button onclick="clearTimeout(x)">
+        Stop
+    </button>
+
+    <h3>setInerval and clearInterval</h3>
+    <button onclick="y=setInterval(fun,1000)">
+        Start
+    </button>
+    <button onclick="clearInterval(y)">
+        Stop
+    </button>
+
+    <h3>Print Numbers</h3>
+    <button onclick="z=setInterval(fun1,1000)">
+        Start
+    </button >
+
+    <button onclick='clearInterval(z)'>
+        Stop
+
+    </button>
+    <button onclick="reset()">
+        Reset
+    </button>
+
+    <hr>
+    <h3>Print Numbers from 1-10</h3>
+    <button onclick="timer()">
+        Print Numbers
+    </button>
+
+    <button onclick="timer1()">
+        Timer
+    </button>
+    <script src="./timingfun.js"></script>
+</body>
+</html>
