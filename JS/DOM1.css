@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: solid 1px black;
+    height:150px;
+    width: 150px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 2vh 0;
+    width: 30%;
+}
+img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 5vh auto;
+    box-shadow: 0 0 10px black;
+}
+#btn{
+    background: green;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+

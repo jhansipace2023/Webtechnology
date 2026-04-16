@@ -1,0 +1,19 @@
+#box{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 2vh 0;
+    width: 25%;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
