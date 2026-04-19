@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Forms.css">
+</head>
+<body>
+    <header><h1>Forms</h1></header>
+    
+    <div class="container">
+        <h2>Print Name</h2>
+        <form onsubmit="handleInput(event)">
+            <input type="text" placeholder="Enter first name" class="fn"><br>
+            <input type="text" placeholder="Enter last name"><br>
+            <input type="date"><br>
+            <input type="text" placeholder="Enter address">
+            <button>Print Details</button>
+        </form>
+    </div>
+
+    <h2 id="printname"></h2>
+    <hr>
+
+    <div class="container">
+        <h2>Validation</h2>
+        <form onsubmit="validation(event)">
+            <input type="email" placeholder="Enter Email address"><br>
+            <input type="password" placeholder="Enter password">
+            <div class="err"></div>
+            <button>Login</button>
+        </form>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h2>Login</h2>
+        <form onsubmit="login1(event)">
+            <input type="email" placeholder="Enter Email address"><br>
+            <input type="password" placeholder="Enter password">
+            <!-- <div class="err"></div> -->
+            <div class="lognn"></div>
+            <button>Login</button>
+        </form>
+    </div>
+
+    <script src="./Forms.js"></script>
+</body>
+</html>

@@ -17,3 +17,16 @@ button{
 .yellow{
     background: yellow;
 }
+
+.on{
+    background: green;
+}
+
+.off{
+    background: red;
+}
+
+.on , .off{
+    border: none;
+    color: white;
+}
